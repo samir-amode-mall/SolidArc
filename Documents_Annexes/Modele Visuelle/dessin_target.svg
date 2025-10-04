@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="265.64166mm"
+   height="265.64166mm"
+   viewBox="0 0 265.64166 265.64166"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="dessin_target.svg"
+   inkscape:export-filename="/home/pakzad/Documents/dessin_target.png"
+   inkscape:export-xdpi="95.617523"
+   inkscape:export-ydpi="95.617523"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#edffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.5"
+     inkscape:cx="661"
+     inkscape:cy="489"
+     inkscape:window-width="1850"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.52916664,0.52916664)">
+    <circle
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path33"
+       cx="132.29167"
+       cy="132.29167"
+       r="132.29167" />
+    <circle
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1269"
+       cx="132.29167"
+       cy="132.29167"
+       r="118.45313" />
+    <circle
+       style="fill:#000000;stroke:#000000;stroke-width:0.507093;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1373"
+       cx="132.29166"
+       cy="132.29167"
+       r="105.57979" />
+    <circle
+       style="fill:none;stroke:#7e7e7e;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1495"
+       cx="132.29169"
+       cy="132.29167"
+       r="92.280975" />
+    <circle
+       style="fill:#019ce1;fill-opacity:1;stroke:#7e7e7e;stroke-width:0.375914;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1671"
+       cx="132.29167"
+       cy="132.29167"
+       r="79.187042" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1901"
+       cx="132.29166"
+       cy="132.29166"
+       r="65.930283" />
+    <ellipse
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2077"
+       cx="132.29167"
+       cy="132.29166"
+       rx="52.724571"
+       ry="52.724575" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2271"
+       cx="132.29167"
+       cy="132.29167"
+       r="39.528126" />
+    <circle
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2415"
+       cx="132.29167"
+       cy="132.29167"
+       r="26.28002" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.345737;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2566"
+       cx="132.29166"
+       cy="132.29167"
+       r="13.056298" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26228;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2692"
+       cx="132.29167"
+       cy="132.29167"
+       rx="6.4834433"
+       ry="6.4834437" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Calque 2"
+     transform="translate(0.52916664,0.52916664)" />
+</svg>

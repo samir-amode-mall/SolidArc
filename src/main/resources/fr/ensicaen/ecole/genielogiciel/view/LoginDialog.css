@@ -1,0 +1,15 @@
+.dialog {
+    -fx-background-color: #2d2d2d;
+    -fx-padding: 10;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+}
+
+.text {
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: #d3d3d3;
+    -fx-text-fill: black;
+}

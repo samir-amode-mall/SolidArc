@@ -1,0 +1,17 @@
+
+How to clone the project to your computer:
+
+
+	-Etape 1: Si vous n'avez pas de clé ssh sur votre ordinateur utilisé pour le projet venez me demander.
+
+	-Etape 2: Vous allez dans le dossier où vous voulez amener le dossier du projet ensuite vous faites la commande "git clone git@gitlab.ecole.ensicaen.fr:zygmuntowicz/solidarc.git". BRAVO !!! Le projet est sur votre machine ! Allez vérifier que le dossier est bien au bon endroit et à bien tous les documents.
+	Si ça ne fonctionne pas venez me voir c'est que la clé ssh n'est pas au bon endroit.
+	
+	-Etape 3: Faites la commande "git branch NOM_DE_BRANCHE" de préférence votre nom. Cela crée une branche avec le nom que vous donnez. Dans le cas contraire vous modifiriez la branche master directement et ça, comme dirait M. CLOUARD, "ça pue". C'est votre branche de travail que vous venez de créer.
+	Faites ensuite "git checkout NOM_DE_BRANCHE" pour basculer sur votre branche.
+	"git branch" permet de voir les branches et celle en vert est celle sur laquelle vous êtes.
+	
+	-Etape 4: Vous avez le dossier de travail du projet donc vous pourrez l'actualiser. Pour pouvoir push vos modifications vous devez faire les commandes suivantes:
+		-"git add ." Le point indique que vous voulez tout push.
+		-(git commit -m "NOM_DU_COMMIT") le nom décrit de préférence ce que vous avez modifié.
+		-"git push" Si tout s'est bien passé, vous avez créé une nouvelle branche avec les modifications et il vous suffit de demander à merge la branche pour que les modifications soient dans la branche master.

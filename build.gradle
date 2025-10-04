@@ -1,0 +1,68 @@
+plugins {
+    id 'application'
+    id "org.openjfx.javafxplugin" version "0.0.14"
+    id 'java'
+    id 'jacoco'
+}
+
+version '0.1'
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+application {
+    mainClass = 'fr.ensicaen.ecole.genielogiciel.Main'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets.main {
+    java.srcDir file('src/main/java')
+}
+
+javafx {
+    version = "21"
+    modules = ['javafx.controls', 'javafx.fxml', 'javafx.media']
+}
+
+dependencies {
+    implementation(
+            [files("lib")],
+            ['com.google.code.gson:gson:2.8.9']
+    )
+    testImplementation(
+            ['org.junit.jupiter:junit-jupiter:5.+'],
+            ['org.mockito:mockito-core:4.+'],
+            [files("lib")]
+    )
+}
+
+tasks.register('copyLibFolder', Copy) {
+    description 'Copies the lib folder.'
+    from('lib')
+    into("$buildDir/classes")
+}
+
+compileJava.dependsOn copyLibFolder
+
+applicationDistribution.from(['LICENSE', 'README.md']) {
+    into ''
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jacoco {
+    toolVersion = "0.8.11"
+    reportsDirectory = layout.buildDirectory.dir('customJacocoReportDir')
+}
+
+jacocoTestReport {
+    reports {
+        xml.required = false
+        csv.required = false
+        html.outputLocation = layout.buildDirectory.dir('jacocoHtml')
+    }
+}
